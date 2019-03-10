@@ -1,0 +1,19 @@
+{
+  "name": "workshop-vuejs",
+  "version": "0.0.0",
+  "description": "Workshop arround VueJS framwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxmeunier/workshop-vuejs.git"
+  },
+  "author": "Maxime Meunier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxmeunier/workshop-vuejs/issues"
+  },
+  "homepage": "https://github.com/mxmeunier/workshop-vuejs#readme"
+}
