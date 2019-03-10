@@ -2,7 +2,9 @@
   "name": "workshop-vuejs",
   "version": "0.0.0",
   "description": "Workshop arround VueJS framwork",
+  "private": true,
   "scripts": {
+    "build": "webpack --config build/webpack.config.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/mxmeunier/workshop-vuejs/issues"
   },
-  "homepage": "https://github.com/mxmeunier/workshop-vuejs#readme"
+  "homepage": "https://github.com/mxmeunier/workshop-vuejs#readme",
+  "dependencies": {
+    "vue": "^2.6.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
